@@ -33,7 +33,7 @@ const LoginStudent = () => {
 
     const handleSubmit = (data: FacultyLoginType) => {
         console.log(data);
-        router.push("/dashboard/student");
+        router.push("/faculty/dashboard");
     };
 
     return (

@@ -6,6 +6,7 @@ import { LoginFormFieldProps } from '@/types';
 import { z } from 'zod';
 import LoginForm from '../components/login-form';
 import Main from '@/components/main';
+import { student_url_header } from '@/constraints';
 
 const LoginStudent = () => {
     // Define the form schema using Zod
@@ -34,7 +35,7 @@ const LoginStudent = () => {
 
     const handleSubmit = (data: StudentLoginType) => {
         console.log(data);
-        router.push("/dashboard/student");
+        router.push(student_url_header);
     };
 
     return (

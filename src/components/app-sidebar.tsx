@@ -21,8 +21,7 @@ import {
 } from "@/components/ui/sidebar"
 import { NavMain } from "./nav-menu"
 import Link from "next/link"
-
-const student_url_header = "/student/dashboard"
+import { student_url_header } from "@/constraints"
 
 const navMain = [
     {

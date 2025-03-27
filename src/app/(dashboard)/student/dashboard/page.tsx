@@ -41,139 +41,139 @@ export default function Dashboard() {
                     Download</button>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                <div className="bg-white p-4 rounded-md shadow-md text-xs">
+                <div className="bg-accent p-4 rounded-md shadow-md text-xs">
                     <h2 className="text-md font-semibold mb-2">Today{`'`}s Attendance</h2>
-                    <table className="w-full border-collapse border border-gray-300">
+                    <table className="w-full border-collapse border border-border">
                         <thead>
-                            <tr className="bg-blue-500">
-                                <th className="border border-gray-300 p-2 text-white">Course Name</th>
-                                <th className="border border-gray-300 p-2 text-white">P/A</th>
+                            <tr className="bg-blue-500 text-white dark:text-black">
+                                <th className="border border-border p-2">Course Name</th>
+                                <th className="border border-border p-2">P/A</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="border border-gray-300 p-2 ">Aptitude-IV</td>
-                                <td className="border border-gray-300 p-2">P</td>
+                                <td className="border border-border p-2 ">Aptitude-IV</td>
+                                <td className="border border-border p-2">P</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-2 ">Preparatory Paper</td>
-                                <td className="border border-gray-300 p-2">P</td>
+                                <td className="border border-border p-2 ">Preparatory Paper</td>
+                                <td className="border border-border p-2">P</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-2">Practice Lab</td>
-                                <td className="border border-gray-300 p-2">A</td>
+                                <td className="border border-border p-2">Practice Lab</td>
+                                <td className="border border-border p-2">A</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-2">Soft Skill Boot Camp</td>
-                                <td className="border border-gray-300 p-2">P</td>
+                                <td className="border border-border p-2">Soft Skill Boot Camp</td>
+                                <td className="border border-border p-2">P</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-2">Alternative English</td>
-                                <td className="border border-gray-300 p-2">A</td>
+                                <td className="border border-border p-2">Alternative English</td>
+                                <td className="border border-border p-2">A</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-2">Design and Analysis of Algorithm</td>
-                                <td className="border border-gray-300 p-2">P</td>
+                                <td className="border border-border p-2">Design and Analysis of Algorithm</td>
+                                <td className="border border-border p-2">P</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
-                <div className="bg-white p-4 rounded-md shadow-md text-xs">
+                <div className="bg-accent p-4 rounded-md shadow-md text-xs">
                     <h2 className="font-semibold mb-2">Overall Attendance</h2>
-                    <table className="w-full border-collapse border border-gray-300">
+                    <table className="w-full border-collapse border border-border">
                         <thead>
-                            <tr className="bg-blue-500 text-white">
-                                <th className="border border-gray-300 p-2">Course Name</th>
-                                <th className="border border-gray-300 p-2">Attendance</th>
-                                <th className="border border-gray-300 p-2">Percentage</th>
+                            <tr className="bg-blue-500 text-white dark:text-black">
+                                <th className="border border-border p-2">Course Name</th>
+                                <th className="border border-border p-2">Attendance</th>
+                                <th className="border border-border p-2">Percentage</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td className="border border-gray-300 p-2">Aptitude-IV</td>
-                                <td className="border border-gray-300 p-2">5/8</td>
-                                <td className="border border-gray-300 p-2">63%</td>
+                                <td className="border border-border p-2">Aptitude-IV</td>
+                                <td className="border border-border p-2">5/8</td>
+                                <td className="border border-border p-2">63%</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-2">Preparatory Paper</td>
-                                <td className="border border-gray-300 p-2">1/1</td>
-                                <td className="border border-gray-300 p-2">100%</td>
+                                <td className="border border-border p-2">Preparatory Paper</td>
+                                <td className="border border-border p-2">1/1</td>
+                                <td className="border border-border p-2">100%</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-2">Practice Lab</td>
-                                <td className="border border-gray-300 p-2">0/0</td>
-                                <td className="border border-gray-300 p-2">0%</td>
+                                <td className="border border-border p-2">Practice Lab</td>
+                                <td className="border border-border p-2">0/0</td>
+                                <td className="border border-border p-2">0%</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-2">Soft Skill Boot Camp</td>
-                                <td className="border border-gray-300 p-2">8/14</td>
-                                <td className="border border-gray-300 p-2">57%</td>
+                                <td className="border border-border p-2">Soft Skill Boot Camp</td>
+                                <td className="border border-border p-2">8/14</td>
+                                <td className="border border-border p-2">57%</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-2">Alternative English</td>
-                                <td className="border border-gray-300 p-2">0/0</td>
-                                <td className="border border-gray-300 p-2">0%</td>
+                                <td className="border border-border p-2">Alternative English</td>
+                                <td className="border border-border p-2">0/0</td>
+                                <td className="border border-border p-2">0%</td>
                             </tr>
                             <tr>
-                                <td className="border border-gray-300 p-2">Design and Analysis of Algorithm</td>
-                                <td className="border border-gray-300 p-2">30/47</td>
-                                <td className="border border-gray-300 p-2">64%</td>
+                                <td className="border border-border p-2">Design and Analysis of Algorithm</td>
+                                <td className="border border-border p-2">30/47</td>
+                                <td className="border border-border p-2">64%</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
-            <div className="bg-white p-4 rounded-md shadow-md text-xs">
+            <div className="bg-accent p-4 rounded-md shadow-md text-xs">
                 <h2 className="font-semibold mb-2">Latest Updates</h2>
-                <table className="w-full border-collapse border border-gray-300">
+                <table className="w-full border-collapse border border-border">
                     <thead>
-                        <tr className="bg-blue-500 text-white">
-                            <th className="border border-gray-300 p-2">Topic</th>
-                            <th className="border border-gray-300 p-2">Department</th>
-                            <th className="border border-gray-300 p-2">Post By</th>
+                        <tr className="bg-blue-500 text-white dark:text-black">
+                            <th className="border border-border p-2">Topic</th>
+                            <th className="border border-border p-2">Department</th>
+                            <th className="border border-border p-2">Post By</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr className="text-xs">
-                            <td className="border border-gray-300 p-2">Aptitude-IV</td>
-                            <td className="border border-gray-300 p-2">General Announcement</td>
-                            <td className="border border-gray-300 p-2">
+                            <td className="border border-border p-2">Aptitude-IV</td>
+                            <td className="border border-border p-2">General Announcement</td>
+                            <td className="border border-border p-2">
                                 HOD Dept. of Computational Sciences Head of the Department
                             </td>
                         </tr>
                         <tr className="text-xs">
-                            <td className="border border-gray-300 p-2">Preparatory Paper</td>
-                            <td className="border border-gray-300 p-2">General Announcement</td>
-                            <td className="border border-gray-300 p-2">
+                            <td className="border border-border p-2">Preparatory Paper</td>
+                            <td className="border border-border p-2">General Announcement</td>
+                            <td className="border border-border p-2">
                                 HOD Dept. of Computational Sciences Head of the Department
                             </td>
                         </tr>
                         <tr className="text-xs">
-                            <td className="border border-gray-300 p-2">Practice Lab</td>
-                            <td className="border border-gray-300 p-2">General Announcement</td>
-                            <td className="border border-gray-300 p-2">
+                            <td className="border border-border p-2">Practice Lab</td>
+                            <td className="border border-border p-2">General Announcement</td>
+                            <td className="border border-border p-2">
                                 HOD Dept. of Computational Sciences Head of the Department
                             </td>
                         </tr>
                         <tr className="text-xs">
-                            <td className="border border-gray-300 p-2">Soft Skill Boot Camp</td>
-                            <td className="border border-gray-300 p-2">General Announcement</td>
-                            <td className="border border-gray-300 p-2">
+                            <td className="border border-border p-2">Soft Skill Boot Camp</td>
+                            <td className="border border-border p-2">General Announcement</td>
+                            <td className="border border-border p-2">
                                 HOD Dept. of Computational Sciences Head of the Department
                             </td>
                         </tr>
                         <tr className="text-xs">
-                            <td className="border border-gray-300 p-2">Alternative English</td>
-                            <td className="border border-gray-300 p-2">General Announcement</td>
-                            <td className="border border-gray-300 p-2">
+                            <td className="border border-border p-2">Alternative English</td>
+                            <td className="border border-border p-2">General Announcement</td>
+                            <td className="border border-border p-2">
                                 HOD Dept. of Computational Sciences Head of the Department
                             </td>
                         </tr>
                         <tr className="text-xs">
-                            <td className="border border-gray-300 p-2">Design and Analysis of Algorithm</td>
-                            <td className="border border-gray-300 p-2">General Announcement</td>
-                            <td className="border border-gray-300 p-2">
+                            <td className="border border-border p-2">Design and Analysis of Algorithm</td>
+                            <td className="border border-border p-2">General Announcement</td>
+                            <td className="border border-border p-2">
                                 HOD Dept. of Computational Sciences Head of the Department
                             </td>
                         </tr>
