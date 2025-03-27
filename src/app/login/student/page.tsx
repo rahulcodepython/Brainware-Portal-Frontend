@@ -9,6 +9,7 @@ import Main from '@/components/main';
 
 const LoginStudent = () => {
     // Define the form schema using Zod
+    // @typescript-eslint/no-unused-vars
     const studentLoginSchema = z.object({
         studentCode: z.string().min(1, "Student code is required"),
         password: z.string().min(6, "Password must be at least 6 characters"),

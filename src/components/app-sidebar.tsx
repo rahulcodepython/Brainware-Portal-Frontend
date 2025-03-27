@@ -1,17 +1,12 @@
 "use client"
 import * as React from "react"
 import {
-    BookOpen,
-    Bot,
     Calculator,
-    Command,
     File,
     Files,
     IndianRupee,
     LayoutDashboard,
     LogOut,
-    Settings2,
-    SquareTerminal,
     Table,
     User,
 } from "lucide-react"

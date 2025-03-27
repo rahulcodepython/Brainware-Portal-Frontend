@@ -4,6 +4,7 @@ import { Eye, EyeClosed } from 'lucide-react';
 import React from 'react'
 import { Button } from '@/components/ui/button';
 
+// @typescript-eslint/no-explicit-any
 const LoginForm = <T extends Record<string, any>>({
     fields,
     onSubmit,

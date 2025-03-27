@@ -42,7 +42,7 @@ export default function Dashboard() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div className="bg-white p-4 rounded-md shadow-md text-xs">
-                    <h2 className="text-md font-semibold mb-2">Today's Attendance</h2>
+                    <h2 className="text-md font-semibold mb-2">Today{`'`}s Attendance</h2>
                     <table className="w-full border-collapse border border-gray-300">
                         <thead>
                             <tr className="bg-blue-500">

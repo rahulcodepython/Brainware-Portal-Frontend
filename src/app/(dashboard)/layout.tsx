@@ -6,7 +6,7 @@ import {
     SidebarProvider,
     SidebarTrigger,
 } from "@/components/ui/sidebar"
-import UrlBreadcrumbParser from "./breadcrumb"
+import UrlBreadcrumbParser from "./url-breadcrumb-parser"
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (

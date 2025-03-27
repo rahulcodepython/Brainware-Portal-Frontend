@@ -16,15 +16,15 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`antialiased scroll-smooth`}>
-                {/* <ThemeProvider
+                <ThemeProvider
                     attribute="class"
                     defaultTheme="system"
                     enableSystem
                     disableTransitionOnChange
-                > */}
-                {children}
-                <DebugTools />
-                {/* </ThemeProvider> */}
+                >
+                    {children}
+                    <DebugTools />
+                </ThemeProvider>
             </body>
         </html>
     );

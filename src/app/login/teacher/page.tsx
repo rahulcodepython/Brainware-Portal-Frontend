@@ -8,6 +8,7 @@ import { useRouter } from 'next/navigation';
 import Main from '@/components/main';
 
 const LoginStudent = () => {
+    // @typescript-eslint/no-unused-vars
     const facultyLoginSchema = z.object({
         facultyCode: z.string().min(1, "Faculty ID is required"),
         password: z.string().min(6, "Password must be at least 6 characters"),
