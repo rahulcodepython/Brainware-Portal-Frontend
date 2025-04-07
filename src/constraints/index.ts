@@ -1,1 +1,1 @@
-export const student_url_header = "/student/dashboard"
+export const student_url_header = "/student"

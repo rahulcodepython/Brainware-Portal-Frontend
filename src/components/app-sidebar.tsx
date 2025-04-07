@@ -9,6 +9,7 @@ import {
     LogOut,
     Table,
     User,
+    CalendarCheck
 } from "lucide-react"
 import {
     Sidebar,
@@ -26,7 +27,7 @@ import { student_url_header } from "@/constraints"
 const navMain = [
     {
         title: "Dashboard",
-        url: `${student_url_header}`,
+        url: `${student_url_header}/dashboard`,
         icon: LayoutDashboard,
         isActive: true,
     },
@@ -36,18 +37,23 @@ const navMain = [
         icon: User,
     },
     {
+        title: "Attendance",
+        url: `${student_url_header}/attendance`,
+        icon: CalendarCheck,
+    },
+    {
         title: "Marks",
-        url: "#",
+        url: `${student_url_header}/marks`,
         icon: Calculator,
     },
     {
         title: "Lecture Plan",
-        url: "#",
+        url: `${student_url_header}/lecture_plan`,
         icon: Table,
     },
     {
         title: "Academic Resources",
-        url: "#",
+        url: `${student_url_header}/academic_resource`,
         icon: File,
     },
     {
@@ -57,7 +63,7 @@ const navMain = [
     },
     {
         title: "Admission Documents",
-        url: "#",
+        url: `${student_url_header}/admission_documents`,
         icon: Files,
     },
     // {
