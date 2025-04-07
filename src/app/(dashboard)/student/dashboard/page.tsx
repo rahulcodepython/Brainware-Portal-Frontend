@@ -7,7 +7,7 @@ export default function Dashboard() {
                 <p>Welcome,</p>
                 <p className="">Soujash Chowdhury</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-1 mt-2">
-                    <p className="text-gray-600">2and Year / 4rth Sem</p>
+                    <p className="text-gray-600">2nd Year / 4th Sem</p>
                     <p className="text-gray-600">Student Code: BWU/BCA/23/408</p>
                     <p className="text-gray-600">Roll Number: 47856985412</p>
                     <p className="text-gray-600">Student ABC ID: 38437489482</p>

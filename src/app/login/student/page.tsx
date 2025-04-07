@@ -35,7 +35,7 @@ const LoginStudent = () => {
 
     const handleSubmit = (data: StudentLoginType) => {
         console.log(data);
-        router.push(student_url_header);
+        router.push(`${student_url_header}/dashboard`);
     };
 
     return (
